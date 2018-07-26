@@ -4,4 +4,5 @@ N=length(x);
 mu = mean(x);
 
 Q=paste("Mean is ",mu);
+sigma = sd(x);
 cat(Q);
